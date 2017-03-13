@@ -9,15 +9,18 @@ This fact is used in this nodejs program to estimate PI.
 
 ## Example Output
 With 10,000,000 samples
-    $ node index.js 10000000
-    Computing PI with 10000000 samples.
-    Math.PI: 3.141592653589793
-    Estimate: 3.1412192
-    Diff: 0.0003734535897930158
-
+```
+$ node index.js 10000000
+Computing PI with 10000000 samples.
+Math.PI: 3.141592653589793
+Estimate: 3.1412192
+Diff: 0.0003734535897930158
+```
 With 100,000,000 samples
-    $ node index.js 100000000
-    Computing PI with 100000000 samples.
-    Math.PI: 3.141592653589793
-    Estimate: 3.1416868
-    Diff: 0.00009414641020688563
+```
+$ node index.js 100000000
+Computing PI with 100000000 samples.
+Math.PI: 3.141592653589793
+Estimate: 3.1416868
+Diff: 0.00009414641020688563
+```
